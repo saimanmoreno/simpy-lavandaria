@@ -1,1 +1,3 @@
 # simpy-lavandaria
+
+Un problema clásico de simulación consiste en ocupar y desocupar recursos en la secuencia correcta. Piensa en una lavandería con 4 lavadoras, 3 secadoras y 5 cestos de ropa. Cuando un cliente llega, mete su ropa en una lavadora (o espera en la cola). El lavado dura 20 minutos (constantes). Al terminar el lavado, el cliente retira la ropa de la máquina y la pone en un cesto y lleva el cesto con su ropa a la secadora en un proceso que dura entre 1 y 4 minutos distribuidos uniformemente. A continuación, el cliente descarga la ropa de la cesta directamente en la secadora, espera a que se seque y se va. Este proceso dura entre 9 y 12 minutos, distribuidos uniformemente. Construye un modelo que represente el sistema descrito.
